@@ -22,7 +22,7 @@ const Searchbar = () =>{
     return(
   
     <div className="relative">
-        <input ref={search}  className="block w-full p-2 text-sm text-gray-900 rounded-lg" 
+        <input ref={search}  className="flex-1 block w-full p-2 text-sm text-gray-900 rounded-lg" 
          placeholder="Cari Anime" onKeyDown={handleSearch} required />
         <button className="absolute top-1.5 end-3" type="submit" onClick={handleSearch}>
             <MagnifyingGlass size={24}/>
